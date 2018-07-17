@@ -11,3 +11,14 @@
 .btn{
     width: 7em;
 }
+
+footer{
+    margin-top: 98%; 
+}
+
+#wrapper{
+    height: 700px;
+    widows: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
