@@ -1,11 +1,11 @@
 # glints TODO
 
-![Glints](./GLINTS_LOGO.png)
+![Glints](img/GLINTS_LOGO.png)
 
 ---
 ## Description
 
-![overview](./todoGlints.png)
+![overview](img/todoGlints.png)
 
 Glints TODO is an Android Application(for now its still prototype) for remind your daily task. It's still under development by myself. Part of my small-project
 
