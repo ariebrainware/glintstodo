@@ -19,6 +19,10 @@ Its easy .. [just follow this link](https://www.figma.com/proto/CdWVZINJbTxCgY0L
 * Nightmode
 * Reminder
 
+### Development
+
+* Desktop version
+
 ---
 
 ## Member and Author Info
