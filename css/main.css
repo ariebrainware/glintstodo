@@ -8,6 +8,12 @@
     font-family: 'Julius Sans One', sans-serif;
 }
 
+.site{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 .btn{
     width: 7em;
 }
@@ -21,6 +27,7 @@
     background: rgb(84, 86, 105);
     height: 104px;
     align-items: flex-end;
+    flex: 1;
 }
 
 .wrapper{    
