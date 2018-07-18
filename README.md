@@ -25,6 +25,9 @@ Its easy .. [just follow this link](https://www.figma.com/proto/CdWVZINJbTxCgY0L
 
 ---
 
+## LICENSE
+MIT License
+
 ## Member and Author Info
 
 * Me
