@@ -16,7 +16,7 @@ footer{
     margin-bottom: 0px;
 }
 
-#wrapper{
+.wrapper{
     height: 700px;
     widows: 500px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
