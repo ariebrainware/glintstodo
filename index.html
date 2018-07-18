@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Julius+Sans+One|Quicksand&amp;subset=latin-ext,vietnamese" rel="stylesheet">
 
 </head>
 
@@ -25,10 +26,10 @@
             </li>
         </ul>
         <div align="center" class="jumbotron">
-            <h1 class="display-4">glints TODO Application</h1>
+            <h1 class="display-4">glints TODO</h1>
             <p class="lead">A Reminder to Remind You</p>
             <hr class="my-4">
-            <p>Glints TODO is an Android Application(for now its still prototype) for remind your daily task. It's still under
+            <p class="about">Glints TODO is an Android Application(for now its still prototype) for remind your daily task. It's still under
                 development by myself. Part of my small-project</p>
             <p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Use Online</a>
@@ -37,22 +38,32 @@
         </div>
     </div>
 
-    <div align="center" class="wrapper">
-        <div>
-            <h2>TODO</h2>
-            <div id="task">
+    <div align="center" class="wrapper container">
+
+        <h2 class="display-4">Task</h2>
+
+        <div class="card">
+            <div id="task" class="task card-body">
             </div>
+        </div>
+        
         <div>
             <button type="submit" class="btn btn-secondary" onclick="addTask()">ADD</button>
             <button type="reset" class="btn btn-secondary" onclick="resetTask()">RESET</button>
         </div>
 
     </div>
-    <footer>Copyright&copy; 2018
-        <a href="https://www.linkedin.com/in/muhamad-arie-b8a040166/">Arie Brainware</a>
-    </footer>
+
 </body>
+
+
+<div class="footer">
+    Copyright&copy; 2018 
+    <a href="https://www.linkedin.com/in/muhamad-arie-b8a040166/">Arie Brainware</a>
+</div>
+
+
 <script src="js/todo.js"></script>
-</script>
+
 
 </html>

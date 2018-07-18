@@ -5,20 +5,30 @@
 }
 
 .lead{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .btn{
     width: 7em;
 }
 
-footer{
-    margin-bottom: 0px;
+.task{
+    font-family: 'Exo 2', sans-serif;
 }
 
-.wrapper{
-    height: 700px;
-    widows: 500px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.footer{
+    display: flex;
+    background: rgb(84, 86, 105);
+    height: 104px;
+    align-items: flex-end;
+}
+
+.wrapper{    
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-weight: 100;
+}
+
+.about{
+    color : hsla(163, 11%, 55%, 1);
+    font-family : 'Quicksand', sans-serif;
 }
