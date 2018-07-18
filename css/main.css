@@ -22,19 +22,29 @@
     font-family: 'Exo 2', sans-serif;
 }
 
-.footer{
-    flex: 1;
+.footer{    
     margin-top: 2em;
     display: flex;
     background-color: rgb(84, 86, 105);
     /* height: 104px;  */
     align-items: flex-end;
+    color: aliceblue;
     
 }
 
 .wrapper{    
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    flex: 1px;
     font-weight: 100;
+}
+
+.profile{
+    color:hsla(198, 66%, 77%, 1);
+}
+
+.profile:hover{
+    text-decoration: none;
+    color:hsla(198, 66%, 77%, 1);
 }
 
 .about{

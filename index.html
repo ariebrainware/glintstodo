@@ -7,24 +7,25 @@
     <title>glints TODO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Julius+Sans+One|Quicksand&amp;subset=latin-ext,vietnamese" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body class="site">
-    <div class="justify-content-end">
+    <div class="wrapper justify-content-end">
         <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active disabled" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
-            </li>
+            <form class="form-inline">
+                <div class="form-group mb-2">
+                    <input type="text" class="form-control" placeholder="email@domain.com">
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Login</button>
+            </form>
         </ul>
+
         <div align="center" class="jumbotron">
             <h1 class="display-4">glints TODO</h1>
             <p class="lead">A Reminder to Remind You</p>
@@ -32,39 +33,21 @@
             <p class="about">Glints TODO is an Android Application(for now its still prototype) for remind your daily task. It's still under
                 development by myself. Part of my small-project</p>
             <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Use Online</a>
-                <a class="btn btn-primary btn-lg" href="https://github.com/ariebrainware/glintstodo/archive/master.zip" role="button">Download</a>
+                <button class="btn btn-secondary btn-lg" disabled href="onlineglintstodo.html" role="button">Use Online</button>
+                <button class="btn btn-primary btn-lg" href="https://github.com/ariebrainware/glintstodo/archive/master.zip" role="button">Download</button>
             </p>
         </div>
     </div>
 
-    <div align="center" class="wrapper container">
 
-        <h2 class="display-4">Task</h2>
-
-        <div class="card">
-            <div id="task" class="task card-body">
-            </div>
-        </div>
-        
-        <div>
-            <button type="submit" class="btn btn-secondary" onclick="addTask()">ADD</button>
-            <button type="reset" class="btn btn-secondary" onclick="resetTask()">RESET</button>
-        </div>
-
-    </div>
 
     <div class="footer">
-        Copyright&copy; 2018 
-        <a href="https://www.linkedin.com/in/muhamad-arie-b8a040166/">Arie Brainware</a>
+        Copyright&copy; 2018 &nbsp;
+        <a class="profile" href="https://www.linkedin.com/in/muhamad-arie-b8a040166/">Arie Brainware</a>
     </div>
 </body>
 
 
-
-
-
 <script src="js/todo.js"></script>
-
 
 </html>
