@@ -23,11 +23,13 @@
 }
 
 .footer{
-    display: flex;
-    background: rgb(84, 86, 105);
-    height: 104px;
-    align-items: flex-end;
     flex: 1;
+    margin-top: 2em;
+    display: flex;
+    background-color: rgb(84, 86, 105);
+    /* height: 104px;  */
+    align-items: flex-end;
+    
 }
 
 .wrapper{    
