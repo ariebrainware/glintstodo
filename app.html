@@ -16,18 +16,42 @@
         <h1 class="display-4 text-center">Task</h1>
         <form>
             <!-- <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Type something todo. . ." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">ADD</button>
-                </div>
-            </div> -->
+                    <input type="text" class="form-control" placeholder="Type something todo. . ." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">ADD</button>
+                    </div>
+                </div> -->
 
-             <div class="form-group d-flex justify-content-center">
-                <input type="text" class="txtbox_task form-control form-control-lg" placeholder="Type something to do . . .">                                
-                <button type="submit" class="btn btn-outline-primary btn-add">+</button>
+            <div class="form-group d-flex justify-content-center">
+                <input type="text" id="task" class="txtbox_task form-control form-control-lg" placeholder="Type something to do . . .">
+                <button type="submit" class="btn btn-outline-primary btn-add" onclick="addTask()">+</button>
             </div>
-            
         </form>
+
+        <div class="row todo">
+            <div class="list-group d-flex justify-content-center">
+                <button type="button" class="list-group-item list-group-item-action active">
+                    Do something!</button>
+                <button type="button" class="list-group-item list-group-item-action">Do something!</button>
+            </div>
+        </div>
+
+
+
+        <!-- <div class="row justify-content-center">
+            <div class="col col-md-6">
+                <h1 class="display-4 text-center">Task</h1>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" class="txtbox-task form-control" placeholder="Type something todo. . ." aria-label="Recipient's username"
+                            aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">ADD</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> -->
 
     </div>
 
@@ -38,6 +62,6 @@
         </small>
     </div>
 </body>
-
+<!-- <script src="js/todo.js"></script> -->
 
 </html>
