@@ -23,6 +23,10 @@
     width: 7em;
 }
 
+.btn-download {
+    width: 8em ;
+}
+
 .task {
     font-family: 'Exo 2', sans-serif;
 }
@@ -57,6 +61,7 @@
 }
 
 .btn-add {
+    font-weight: bolder;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -65,10 +70,6 @@
 
 .list-group-item {
     width: 500px;
-}
-
-.todo {
-    margin-left: 280px;
 }
 
 .about {
