@@ -5,14 +5,13 @@
 ---
 ## Description
 
-![overview](img/glints_overview.png)
+![overview](img/glints_desktopversion.png)
 
-Glints TODO is an Android Application(for now its still prototype) for remind your daily task. It's still under development by myself. Part of my small-project
+Glints TODO is an application(for now its still prototype) for remind your daily task. It's still under development by myself. Part of my small-project
 
 ---
 ## How to Use it?
-
-Its easy .. [just follow this link](https://www.figma.com/proto/CdWVZINJbTxCgY0LbJzZFw9g/glints_TODO?scaling=scale-down&node-id=2%3A0). Buts still prototype :D 
+You need to create an account, after that you need to **Login** to use _glints TODO_ from this [website](https://nobody.netlify.com). But you also can download from my github repository or click **Download** button.
 
 ### Upcoming Feature
 
