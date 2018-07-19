@@ -29,9 +29,7 @@ MIT License
 
 ## Member and Author Info
 
-* Me
-* Myself
-* and I
+* Arie Brainware
 
 Contact me if you have a suggestion or problem
 

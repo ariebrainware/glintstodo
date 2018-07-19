@@ -10,43 +10,45 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Julius+Sans+One|Quicksand&amp;subset=latin-ext,vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="#" /> -->
-</head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/list.png" />
+    <link rel="stylesheet" href="css/animate.css" </head>
+    
 
-<body class="site">
-    <div class="wrapper justify-content-end">
-        <ul class="nav justify-content-end">
-            <form class="form-inline">
-                <div class="form-group mb-2">
-                    <input type="text" class="form-control" placeholder="email@domain.com">
-                </div>
-                <div class="form-group mx-sm-3 mb-2">
-                    <input type="password" class="form-control" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-primary mb-2">Login</button>
-            </form>
-        </ul>
+    <body class="site">
+        <div class="wrapper justify-content-end">
+            <ul class="nav justify-content-end">
+                <form class="form-inline">
+                    <div class="form-group mb-2">
+                        <input type="text" class="form-control form-control-sm" placeholder="Email@domain.com">
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <input type="password" class="form-control form-control-sm" placeholder="Password">
+                    </div>                    
+                        <button type="submit" id="signin" class="btn btn-primary btn-sm mb-2">Sign In</button>
+                        <button type="submit" class="btn btn-primary btn-sm mx-sm-2 mb-2">Sign Up</button>                    
+                </form>
+            </ul>
 
-        <div align="center" class="jumbotron">
-            <h1 class="display-4">glints TODO</h1>
-            <p class="lead">A Reminder to Remind You</p>
-            <hr class="my-4">
-            <p class="about">Glints TODO is an Android Application(for now its still prototype) for remind your daily task. It's still under
-                development by myself. Part of my small-project</p>
+            <div align="center" class="jumbotron animated fadeIn">
+                <h1 class="display-4">glints TODO</h1>
+                <p class="lead">A Reminder to Remind You</p>
+                <hr class="my-4">
+                <p class="about">Glints TODO is an Application to remind your daily task. It's still under development by myself. Part of
+                    my small-project</p>
 
-            <button class="btn btn-secondary btn-lg" disabled href="onlineglintstodo.html" role="button">Use Online</button>
-            <button class="btn btn-primary btn-lg" href="https://github.com/ariebrainware/glintstodo/archive/master.zip" role="button">Download</button>
 
+                <button id="btn-use" class="btn btn-primary btn-lg" disabled role="button">Use Online</button>
+                <button class="btn btn-primary btn-lg" href="https://github.com/ariebrainware/glintstodo/archive/master.zip" role="button">Download</button>
+
+            </div>
         </div>
-    </div>
 
 
-
-    <div class="footer">
-        Copyright&copy; 2018 &nbsp;
-        <a class="profile" href="https://www.linkedin.com/in/muhamad-arie-b8a040166/">Arie Brainware</a>
-    </div>
-</body>
-
-
+        <div class="footer">
+            <small>
+                Copyright&copy; 2018 &nbsp;
+                <a class="profile" href="https://www.linkedin.com/in/muhamad-arie-b8a040166/">Arie Brainware</a>
+            </small>
+        </div>
+    </body>
 </html>

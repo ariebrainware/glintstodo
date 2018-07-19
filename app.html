@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <link rel="shortcut icon" type="image/x-icon" href="img/list.png" />
+    <link rel="stylesheet" href="css/main.css">
     <title>glints TODO</title>
 </head>
-<body>
-    <div align="center" class="wrapper container">
 
-        <h2 class="display-4">Task</h2>
-    
-        <div class="card">
-            <div id="task" class="task card-body">
+<body class="site">
+
+    <div class="container">
+        <h1 class="display-4 text-center">Task</h1>
+        <form>
+            <div class="form-group d-flex justify-content-center">
+                <input type="text" class="txtbox_task form-control form-control-lg" placeholder="Type something to do . . .">                                
             </div>
-        </div>
+            <button type="submit" class="btn btn-outline-primary btn-add">+</button>
+        </form>
         
-        <div>
-            <button type="submit" class="btn btn-secondary" onclick="addTask()">ADD</button>
-            <button type="reset" class="btn btn-secondary" onclick="resetTask()">RESET</button>
-        </div>
-    
-    </div>    
+    </div>
+
+    <div class="footer">
+        <small>
+            Copyright&copy; 2018 &nbsp;
+            <a class="profile" href="https://www.linkedin.com/in/muhamad-arie-b8a040166/">Arie Brainware</a>
+        </small>
+    </div>
 </body>
-<script src="js/todo.js"></script>
+
+
 </html>
