@@ -1,6 +1,9 @@
 # glints TODO
 
-![Glints](img/glints_logo.png)
+<p align="center">
+    <img src="img/glints_logo.png">
+
+</p>
 
 ---
 ## Description
